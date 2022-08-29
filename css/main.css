@@ -43,6 +43,8 @@ html { height: 5000px; }
 .Section02 .inner .thumb { overflow: hidden;  margin: 0 0 40px 0;} 
 .Section02 .inner figure img{transition: 0.5s; }
 .Section02 .inner figure:hover img { transform: scale(1.2); } 
-.Section02 .inner .des{font-size: 18px; font-weight: 500;margin:0 0 20px 0;}
+.Section02 .inner .des{position: relative; font-size: 18px; font-weight: 500;margin:0 0 20px 0;}
+.Section02 .inner .des::before{position: absolute; content: ''; top: -60px; left: 50%; transform: translateX(-50%); width: 2px; height: 40px; background: #008850;} 
+
 .Section02 .inner p{font-size: 15px ; font-weight: 300; margin: 0 0 20px 0; line-height: 1.4;}
 .Section02 .inner a{display: inline-block; padding: 10px 25px; border:1px solid #008850; color: #008850; font-size: 13px;}
