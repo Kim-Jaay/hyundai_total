@@ -2,17 +2,19 @@
 
 /*
 -------------------------------------
+
 font
+
 --------------------------------------
 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/static/woff2/SUIT.css');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
 
 /*
 -------------------------------------
+
 reset
+
 --------------------------------------
 */
 
@@ -30,11 +32,11 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Noto Sans KR';
     font-weight: normal;
-    color: #444;
     line-height: 1;
     letter-spacing: -0.025em;
+    color: #444444;
 }
 
 ul,
