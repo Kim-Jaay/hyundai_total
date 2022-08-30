@@ -10,7 +10,7 @@
 .TopBanner h2 { font-size: 30px; font-weight: 700; margin: 0 0 10px 0; } 
 .TopBanner h2 span { font-weight: 400; color: #00e085; margin: 0 0 0 10px; } 
 .TopBanner p { font-size: 15px; } 
-.TopBanner .top_close_btn { position: absolute; top: 30px; right: 15px; font-size: 40px; } 
+.TopBanner .top_close_btn { position: absolute; top: 30px; right: 15px; font-size: 20px; } 
 
 .Header { position: fixed; top: 0; left: 0; right: 0; /* padding: 0 75px; */ background: rgba(0, 0, 0, 0.3); color: #f9f9f9; line-height: 100px; transition: 0.5s; border-bottom: 1px solid transparent; z-index: 999; } 
 .Header:hover { background: rgba(255, 255, 255, 1); color: #444444; } 
@@ -49,3 +49,7 @@
 .Section02 .inner .des::before { content: ""; position: absolute; left: 50%; top: -60px; transform: translateX(-50%); width: 2px; height: 40px; background: #008850; } 
 .Section02 .inner p { font-size: 15px; font-weight: 300; line-height: 1.45; margin: 0 0 20px 0; } 
 .Section02 .inner a { display: inline-block; padding: 10px 25px; border: 1px solid #008850; color: #008850; font-size: 13px; } 
+
+.Section03{padding: 100px 0;}
+.Section03 .case{background: yellow; height: 600px; width:calc((100% - 1200px) / 2 + 1200px); float: right;}
+.Section03 .case>div{float: left;}
